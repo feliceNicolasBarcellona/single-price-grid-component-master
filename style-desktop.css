@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(204, 43%, 93%);
+}
+
+h1, h2, h3, h4, h5, h6, ul, li {
+  font-family: 'Karla', sans-serif;
+}
+
+li {
+  list-style: none;
+  font-size: 14px;
+  color:hsl(179, 74%, 64%);
+  line-height: 1.29rem;
+  font-weight:400 ;
+}
+
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 98vh;
+  width: 100%;
+}
+
+.card {
+  width: 636px;
+  height: 476px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color:hsl(360, 100%, 100%);
+  box-shadow: 11px 11px 45px -19px hsl(218, 22%, 67%);
+  border-radius: 8px;
+}
+
+.top-section {
+  height: 217px; 
+  display: flex; 
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 39px;
+}
+
+.title {
+  color: hsl(179, 62%, 43%);
+  font-weight: 600;
+}
+
+.subtitle {
+  color:hsl(71, 73%, 54%);
+  font-size: large;
+}
+
+.description {
+  font-size: 16px;
+  color: hsla(217, 22%, 67%, 0.85);
+  font-family: 'Karla', sans-serif;
+  line-height:1.59em;
+}
+
+.section {
+  width: 318px;
+  height: 258px;
+  display: flex;
+  flex-direction: column;
+}
+
+.bottom-left {
+  background-color: hsl(179, 62%, 43%);
+  border-bottom-left-radius: 8px;
+  padding: 39px 39px 35px;
+}
+
+.bottom-left-title {
+  font-size: 19px; 
+  color: hsl(360, 100%, 100%);
+  font-weight: 400;
+}
+
+.price-container{
+  display: flex;
+  align-items: center; 
+  flex-wrap: wrap;
+  margin-top: 18px;
+}
+
+.price-label {
+  color:  hsl(360, 100%, 100%);
+}
+
+.month-label {
+  margin-left: 14px;
+  font-weight: 400; 
+  color: hsl(179, 59%, 59%)
+}
+
+.price-container-description {
+  font-weight: 400;
+  margin-top: 6px; 
+  color: hsl(204, 43%, 93%);
+}
+
+.sign-up-btn {
+  background-color: hsl(71, 73%, 54%);
+  border: 0;
+  height: 51px; 
+  color: hsl(360, 100%, 100%); 
+  font-size: 16px; 
+  font-family:'Karla', sans-serif;font-weight: 700;
+  border-radius: 5px;
+  box-shadow: 0px 12px 16px 0px hsl(179, 61%, 39%);
+  margin-top: 29px;
+}
+
+.bottom-right {
+  background-color: hsl(179, 47%, 52%);
+  border-radius: 0px 0px 8px 0px;
+  padding: 40px 0px 0px 39px ;
+}
+
+.bottom-right-title {
+  font-size: 19px; 
+  color: hsl(360, 100%, 100%);
+  font-weight: 400;
+}
+
+.attribution { 
+  font-size: 11px; 
+  text-align: center; 
+}
+
+.attribution a { 
+  color: hsl(228, 45%, 44%); 
+}

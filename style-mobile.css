@@ -1,0 +1,49 @@
+@media (max-width: 650px) {
+ 
+  .card {
+    width: 312px;
+    height: 722px;
+    border-radius: 5px;
+  }
+  
+  .top-section {
+    height: 268px; 
+    padding: 29px 0px 36px 25px; 
+  }
+
+  .title {
+    font-size: 20px;
+  }
+
+  .subtitle {
+    font-size: 15px;
+    margin-top: 5px;
+    font-weight:700;
+    line-height: 1.4rem;
+  }
+  
+  .description {
+    font-size: 14px;
+    line-height: 1.7rem;
+    font-weight: 400;
+  }
+
+  .section {
+    height: 227px;
+  }
+
+  .bottom-left {
+    border-radius: 0px;
+    padding: 25px 25px 23px 25px;
+  }
+
+  .bottom-right {
+    border-radius: 0px 0px 5px 5px;
+    padding: 23px 25px 25px 25px;
+  }
+
+  li {
+    line-height: 1.26rem;
+  }
+  
+}
