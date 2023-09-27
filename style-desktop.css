@@ -1,140 +1,151 @@
+:root {
+  --cyan: hsl(179, 62%, 43%);
+  --bright-yellow: hsl(71, 73%, 54%);
+  --light-gray: hsl(204, 43%, 93%);
+  --grayish-blue: hsl(218, 22%, 67%);
+  --font-family: "Karla", sans-serif;
+}
+
 * {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
 }
 
 body {
-  background-color: hsl(204, 43%, 93%);
+  font-family: var(--font-family);
 }
 
-h1, h2, h3, h4, h5, h6, ul, li {
-  font-family: 'Karla', sans-serif;
-}
-
-li {
-  list-style: none;
-  font-size: 14px;
-  color:hsl(179, 74%, 64%);
-  line-height: 1.29rem;
-  font-weight:400 ;
-}
-
-
-.container {
+main {
+  background-color: var(--light-gray);
+  max-width: 1440px;
+  margin: 0 auto;
+  height: 98vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 98vh;
-  width: 100%;
 }
 
 .card {
-  width: 636px;
+  width: 635px;
   height: 476px;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 7px;
+  box-shadow: 11px 11px 45px -19px var(--grayish-blue);
   display: flex;
   flex-wrap: wrap;
-  background-color:hsl(360, 100%, 100%);
-  box-shadow: 11px 11px 45px -19px hsl(218, 22%, 67%);
-  border-radius: 8px;
 }
 
 .top-section {
-  height: 217px; 
-  display: flex; 
-  flex-direction: column;
-  justify-content: space-between;
-  padding: 39px;
+  height: 217px;
+  padding: 44px 27px 0 41px;
 }
 
 .title {
-  color: hsl(179, 62%, 43%);
-  font-weight: 600;
+  color: var(--cyan);
+  font-weight: 700;
+  font-size: 23.5px;
 }
 
 .subtitle {
-  color:hsl(71, 73%, 54%);
-  font-size: large;
+  color: var(--bright-yellow);
+  font-size: 18.4px;
+  margin-top: 28px;
 }
 
 .description {
-  font-size: 16px;
-  color: hsla(217, 22%, 67%, 0.85);
-  font-family: 'Karla', sans-serif;
-  line-height:1.59em;
-}
-
-.section {
-  width: 318px;
-  height: 258px;
-  display: flex;
-  flex-direction: column;
+  font-size: 15.6px;
+  color: var(--grayish-blue);
+  line-height: 1.65em;
+  margin-top: 13.5px;
+  font-weight: 400;
 }
 
 .bottom-left {
-  background-color: hsl(179, 62%, 43%);
-  border-bottom-left-radius: 8px;
-  padding: 39px 39px 35px;
+  background-color: var(--cyan);
+  border-bottom-left-radius: 7px;
+  width: 50%;
+  padding: 41px 40px 38px 40px;
 }
 
-.bottom-left-title {
-  font-size: 19px; 
-  color: hsl(360, 100%, 100%);
-  font-weight: 400;
+.monthly-subscription {
+  color: hsl(0, 0%, 100%);
+  font-size: 18.45px;
 }
 
-.price-container{
+.price-container {
   display: flex;
-  align-items: center; 
-  flex-wrap: wrap;
-  margin-top: 18px;
+  align-items: center;
+  margin-top: 22px;
 }
 
 .price-label {
-  color:  hsl(360, 100%, 100%);
+  color: hsl(0, 0%, 100%);
+  font-size: 32px;
+  font-weight: 700;
 }
 
 .month-label {
-  margin-left: 14px;
-  font-weight: 400; 
-  color: hsl(179, 59%, 59%)
-}
-
-.price-container-description {
+  margin-left: 12px;
   font-weight: 400;
-  margin-top: 6px; 
-  color: hsl(204, 43%, 93%);
+  color: hsla(0, 0%, 100%, 0.5);
 }
 
-.sign-up-btn {
+.full-access-text {
+  font-weight: 400;
+  margin-top: 11px;
+  color: hsl(204, 43%, 93%);
+  font-size: 15.7px;
+}
+
+.btn {
   background-color: hsl(71, 73%, 54%);
   border: 0;
-  height: 51px; 
-  color: hsl(360, 100%, 100%); 
-  font-size: 16px; 
-  font-family:'Karla', sans-serif;font-weight: 700;
+  width: 100%;
+  height: 48px;
+  color: hsl(360, 100%, 100%);
+  font-size: 16px;
+  font-family: "Karla", sans-serif;
+  font-weight: 400;
   border-radius: 5px;
   box-shadow: 0px 12px 16px 0px hsl(179, 61%, 39%);
-  margin-top: 29px;
+  margin-top: 30px;
+  cursor: pointer;
 }
 
 .bottom-right {
   background-color: hsl(179, 47%, 52%);
-  border-radius: 0px 0px 8px 0px;
-  padding: 40px 0px 0px 39px ;
+  width: 50%;
+  border-bottom-right-radius: 7px;
+  padding: 42px 0 0 40px;
 }
 
-.bottom-right-title {
-  font-size: 19px; 
-  color: hsl(360, 100%, 100%);
+.why-us-text {
+  color: hsl(0, 0%, 100%);
+  font-size: 18.5px;
+}
+
+ul {
+  margin-top: 18px;
+}
+
+ul li {
+  list-style: none;
+  font-size: 13.7px;
+  color: hsla(0, 0%, 100%, 0.5);
+  line-height: 1.25rem;
   font-weight: 400;
 }
 
-.attribution { 
-  font-size: 11px; 
-  text-align: center; 
+.attribution {
+  font-size: 11px;
+  text-align: center;
 }
 
-.attribution a { 
-  color: hsl(228, 45%, 44%); 
+.attribution a {
+  color: hsl(228, 45%, 44%);
 }

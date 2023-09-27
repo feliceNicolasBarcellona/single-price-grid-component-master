@@ -1,63 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" href="style-desktop.css">
-  <link rel="stylesheet" href="style-mobile.css">
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style-desktop.css" />
+    <link rel="stylesheet" href="style-mobile.css" />
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
 
+    <title>Frontend Mentor | Single Price Grid Component</title>
 
-  
-  <title>Frontend Mentor | Single Price Grid Component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-
-</head>
-<body>
-  <div class="container">
-    <div class="card">
-      <div class="top-section">
-        <h2 class="title">Join our community</h2>
-        <h3 class="subtitle">30-day, hassle-free money back guarantee</h3>
-        <p class="description">Gain access to our full library of tutorials along with expert code reviews. Perfect for any developers who are serious about honing their skills.</p>
-      </div>
-      <div class="section bottom-left">
-        <h4 class="bottom-left-title">Monthly Subscription</h4>
-        <div class="price-container">
-          <h1 class="price-label">&dollar;29</h1>
-          <h4 class="month-label">per month</h4>
-          <h4 class="price-container-description">Full access for less than &dollar;1 a day</h4>
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  </head>
+  <body>
+    <main>
+      <div class="card">
+        <div class="top-section">
+          <p class="title">Join our community</p>
+          <p class="subtitle">30-day, hassle-free money back guarantee</p>
+          <p class="description">
+            Gain access to our full library of tutorials along with expert code
+            reviews. Perfect for any developers who are serious about honing
+            their skills.
+          </p>
         </div>
-          <button class="sign-up-btn">Sign Up</button>
+        <div class="bottom-left">
+          <p class="monthly-subscription">Monthly Subscription</p>
+          <div class="price-container">
+            <p class="price-label">&dollar;29</p>
+            <p class="month-label">per month</p>
+          </div>
+          <p class="full-access-text">
+            Full access for less than &dollar;1 a day
+          </p>
+          <button class="btn">Sign Up</button>
+        </div>
+        <div class="bottom-right">
+          <p class="why-us-text">Why Us</p>
+          <ul>
+            <li>Tutorials by industry experts</li>
+            <li>Peer &amp; expert code review</li>
+            <li>Coding exercises</li>
+            <li>Access to our GitHub repos</li>
+            <li>Community forum</li>
+            <li>Flashcard decks</li>
+            <li>New videos every week</li>
+          </ul>
+        </div>
       </div>
-      <div class="section bottom-right">
-        <h4 class="bottom-right-title">Why Us</h4>
-        <ul style="margin-top: 17px;">
-          <li>Tutorials by industry experts</li>
-          <li>Peer &amp; expert code review</li>
-          <li>Coding exercises</li>
-          <li>Access to our GitHub repos</li>
-          <li>Community forum</li>
-          <li>Flashcard decks</li>
-          <li>New videos every week</li>
-        </ul>
-      </div>
-    </div>
-  </div>
-  <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Felice Nicolas Barcellona</a>.
-    </p>
-  </footer>
-</body>
+    </main>
+    <footer>
+      <p class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Felice Nicolas Barcellona</a>.
+      </p>
+    </footer>
+  </body>
 </html>
-
-
-

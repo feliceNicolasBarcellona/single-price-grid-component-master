@@ -1,49 +1,45 @@
-@media (max-width: 650px) {
+@media only screen and (max-width: 768px) {
  
   .card {
     width: 312px;
     height: 722px;
     border-radius: 5px;
+    flex-wrap: nowrap;
+    flex-direction: column;
   }
   
   .top-section {
     height: 268px; 
-    padding: 29px 0px 36px 25px; 
+    padding: 30px 15px 0 25px; 
   }
 
   .title {
-    font-size: 20px;
+    font-size: 19.5px;
   }
 
   .subtitle {
     font-size: 15px;
-    margin-top: 5px;
-    font-weight:700;
-    line-height: 1.4rem;
-  }
-  
-  .description {
-    font-size: 14px;
-    line-height: 1.7rem;
-    font-weight: 400;
+    line-height: 1.3em;
+    margin-top: 26px;
+    word-spacing: 1px;
   }
 
-  .section {
-    height: 227px;
+  .description {
+    font-size: 13.7px;
+    line-height: 1.65rem;
+    font-weight: 400;
+    margin-top: 15px;
   }
 
   .bottom-left {
     border-radius: 0px;
-    padding: 25px 25px 23px 25px;
+    padding: 25px;
+    width: 100%;
   }
 
   .bottom-right {
+    width: 100%;
     border-radius: 0px 0px 5px 5px;
-    padding: 23px 25px 25px 25px;
-  }
-
-  li {
-    line-height: 1.26rem;
-  }
-  
+    padding: 25px;
+  }  
 }
